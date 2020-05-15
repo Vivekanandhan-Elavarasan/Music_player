@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="musicplayer.css" />
+</head>
+<body>
+    <script src="musicplayer.js"></script>
+    <form onsubmit="return false">
+        <label for="sname">Song Name:</label>
+        <input type="text" id="sname" name="sname"><br><br>
+        <label for="singer">Music Director:</label>
+        <input type="text" id="singer" name="singer"><br><br>
+        <label for="url">URL:</label>
+        <input type="text" id="url" name="url"> sample: alligator3.mp3 , mankatha.mp3, pirates.mp3<br><br>
+        <button onclick="createsong()">create song</button>
+      </form>
+      <h1> Created Playlist </h1>
+    </body>
+    </html>
