@@ -20,7 +20,7 @@ var playlist = /** @class */ (function () {
             songn.innerHTML = "Song Name :" + this.playlista[i].songname;
             container.appendChild(songn);
             var sin = document.createElement('div');
-            sin.innerHTML = "Singer :" + this.playlista[i].singer;
+            sin.innerHTML = "Music director :" + this.playlista[i].singer;
             container.appendChild(sin);
             var audio = document.createElement('div');
             // audio.classList.add("container");
